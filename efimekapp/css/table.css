@@ -1,0 +1,30 @@
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.datespanning, .dateuploaded, .uploader, .datepublished, .originacreator, .listno, .title {
+  display: flex;
+  border: 5px;
+  box-sizing: border-box;
+  padding: 0.8em 1.2em;
+  border: solid rgb(0, 0, 0);
+  overflow: hidden;
+  list-style: none;
+  justify-content: center;
+  height: 50px;
+  background-color: #aaa;
+  margin: 0.1%;
+}
+
+.listno {width: 5%}
+
+.title {width: 40%}
+
+.datespanning, .dateuploaded, .uploader, .datepublished, .originacreator {width: 10%;}
+
+#toprow {height: 100px; padding: 0em 1.2em;}
